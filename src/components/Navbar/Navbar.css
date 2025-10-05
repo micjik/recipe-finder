@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding-inline: 15px;
+    padding-top: 10px;
+}
+.nav-link{
+    display:flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+.nav-link li{
+    list-style: none;
+    color:  #16382f;
+    font-weight:600;
+}
+.nav-link li:first-child{
+    border-bottom: 2px solid #d9480f;
+}
+.btn-btn{
+    padding-top: 10px;
+}
+.btn-btn button{
+    border:none;
+    background-color: #16382f;
+    color:hsl(0, 0%, 100%);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
