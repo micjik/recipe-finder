@@ -1,0 +1,72 @@
+.main-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 4rem;
+    color:#16382f;
+    
+}
+.main-left{
+ width: 40%;
+ margin-top: 1.5rem;
+}
+.main-left h2{
+    padding-bottom: 1rem;
+}
+.main-left p{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.main-right{
+    width: 40%;
+}
+.main-right img{
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.main-bottom{
+  width: 80%;
+  height: 250px;
+  margin-top: 3rem;
+  margin-inline: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #E0E6E3;
+  background-image: url("../../assets/images/pattern-fork.svg"), url("../../assets/images/pattern-knife.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left center, right center;
+  background-size: 200px, 200px;
+}
+
+.menu-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-basis: 50%;
+    padding-left: 40px;
+    background-color: #E0E6E3;
+}
+.menu-description h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-right: 1rem;
+    background-color: #E0E6E3;
+}
+.menu-description p{
+    font-size: 14px;
+    padding-left: 1rem;
+    background-color: #E0E6E3;
+}
+button{
+    padding: 10px 20px;
+    background-color: #16382f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

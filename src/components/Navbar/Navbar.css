@@ -1,8 +1,12 @@
 .navbar{
+    height: 10vh;
     display:flex;
     justify-content: space-around;
+    align-items: center;
     padding-inline: 15px;
     padding-top: 10px;
+    border-bottom: 1px solid black;
+    
 }
 .nav-link{
     display:flex;
@@ -22,7 +26,7 @@
 }
 .btn-btn button{
     border:none;
-    background-color: #16382f;
+    background-color: #395852;
     color:hsl(0, 0%, 100%);
     padding: 8px 12px;
     border-radius: 5px;

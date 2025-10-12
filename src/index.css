@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:  #F6F5F1;
+    color:#395852;
+}
 /*## Colors
 
 - White: hsl(0, 0%, 100%)
@@ -24,4 +30,8 @@ Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 600, 700
+git remote add origin https://github.com/micjik/recipe-finder.git
+git branch -M main
+git push -u origin main
 */
+
