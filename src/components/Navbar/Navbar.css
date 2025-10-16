@@ -9,18 +9,16 @@
     
 }
 .nav-link{
-    display:flex;
-    gap: 20px;
-    padding-right: 20px;
+    padding-inline: 10px;
+    text-decoration: none;
+    font-weight: 600;
 }
-.nav-link li{
-    list-style: none;
-    color:  #16382f;
-    font-weight:600;
+.active-link{
+    text-decoration: underline;
+    text-decoration-color: red;
+    height:4px;
 }
-.nav-link li:first-child{
-    border-bottom: 2px solid #d9480f;
-}
+
 .btn-btn{
     padding-top: 10px;
 }

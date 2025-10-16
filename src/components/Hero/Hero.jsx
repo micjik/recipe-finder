@@ -3,6 +3,7 @@ import heroImage from "../../assets/images/image-home-hero-large.webp";
 import heroIcon1 from "../../assets/images/icon-minimum-fuss.svg"
 import heroIcon2 from "../../assets/images/icon-search-in-seconds.svg"
 import heroIcon3 from "../../assets/images/icon-whole-food-recipes.svg"
+import { Link } from "react-router";
 
 import "./Hero.css";
 
@@ -14,9 +15,11 @@ const Hero = () => {
         Discover eight quick, whole food recipes that you can cook tonight -no
         processed junk, no guess work.
       </p>
+      <Link to='/recipe'>
       <div className="btn-btn">
         <button>Start exploring</button>
       </div>
+      </Link>
 
       <div className="hero-img">
         <img src={heroImage} alt="" />

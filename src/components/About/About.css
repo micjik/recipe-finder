@@ -1,0 +1,41 @@
+.about-container{
+    width: 100%;
+}
+.about-container h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 900;
+}
+.about-container p{
+    width: 60%;
+    margin: 20px 20%;
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-container img{
+    height:700px;
+    border-radius: 10px;
+     border: 10px solid #fff;
+}
+.item-container img{
+    height: 20px;
+}
+.call-to-action{
+    width: 100%;
+}
+.call-to-action img{
+    height:700px;
+    max-width: 70%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+     border: 10px solid #fff;
+}
+.btn-btn{
+    display:flex;
+    justify-content: center;
+}
